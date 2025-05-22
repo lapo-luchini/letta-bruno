@@ -1,0 +1,15 @@
+meta {
+  name: list
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{letta}}v1/agents/:agent/messages
+  body: none
+  auth: inherit
+}
+
+params:path {
+  agent: agent-3de58e7e-b02a-4bc8-9d06-3f259a60b2d9
+}
